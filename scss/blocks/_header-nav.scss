@@ -1,0 +1,54 @@
+$border: 2px solid #f5f5f5;
+
+.header__nav.cont {
+  margin-bottom: 19px;
+}
+.header-nav {
+
+  display: flex;
+  max-width: 1110px;
+  margin: 0 auto;
+  height: 60px;
+}
+
+.header-nav__categories {
+  border-left: $border;
+  border-right: $border;
+  width: 200px;
+}
+
+.header-nav__deals {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 38px;
+  padding-right: 38px;
+}
+.header-nav__link {
+  color: #808080;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+
+  &:not(:last-child) {
+    margin-right: 35px;
+  }
+
+  &:hover {
+    color: $blue;
+  }
+}
+.header-nav__select {
+  display: flex;
+  border-left: $border;
+  border-right: $border;
+  width: 350px;
+}
+
+.header-nav__select-item {
+  &:not(:last-child) {
+    border-right: $border;
+  }
+}
+
