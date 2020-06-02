@@ -9,6 +9,7 @@
 .footer__row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   padding-top: 48px;
   padding-bottom: 52px;
@@ -21,7 +22,7 @@
 
 
 .footer__logo {
-
+  margin-left: 82px;
 }
 
 .footer__nav {

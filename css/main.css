@@ -916,6 +916,7 @@ ul {
 .footer__row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 48px;
   padding-bottom: 52px;
 }
@@ -923,6 +924,35 @@ ul {
 .footer__row--copyright {
   padding-top: 40px;
   padding-bottom: 49px;
+}
+
+.footer__logo {
+  margin-left: 82px;
+}
+
+.nav-footer__ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-footer__list-item {
+  padding: 0;
+  margin: 0;
+}
+.nav-footer__list-item + .nav-footer__list-item {
+  margin-left: 60px;
+}
+
+.nav-footer__link {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.nav-footer__link:hover {
+  color: #1875f0;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */
