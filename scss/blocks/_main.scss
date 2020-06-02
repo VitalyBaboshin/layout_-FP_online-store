@@ -1,0 +1,23 @@
+.main-content {
+}
+
+.main__row {
+  display: flex;
+}
+
+.main__column-left {
+  width: 255px;
+  // что бы не сжималось
+  flex-shrink: 0;
+  margin-right: 30px;
+
+
+  // Когда внутри лежит какойто элемент и есть еще один элемент то делаем отступ
+  & > * + * {
+    margin-top: 30px;
+  }
+}
+
+.main__column-right {
+  flex-grow: 1;
+}
