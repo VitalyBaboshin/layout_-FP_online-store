@@ -955,4 +955,41 @@ ul {
   text-decoration: none;
 }
 
+.nav-footer__link--dropdown {
+  position: relative;
+}
+.nav-footer__link--dropdown span {
+  position: absolute;
+  top: -8px;
+  margin-left: 10px;
+}
+.nav-footer__link--dropdown span svg {
+  fill: #b3b3b3;
+}
+.nav-footer__link--dropdown:hover span svg {
+  fill: #1875f0;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social__item {
+  width: 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social__item + .social__item {
+  margin-left: 34px;
+}
+.social__item svg {
+  fill: #666;
+}
+.social__item:hover svg {
+  fill: #1875f0;
+}
+
 /*# sourceMappingURL=main.css.map */
