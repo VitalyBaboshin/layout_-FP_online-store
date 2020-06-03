@@ -18,6 +18,7 @@
   }
 }
 
+
 .nav-footer__link {
   color: #666666;
   font-size: 16px;
@@ -27,5 +28,22 @@
   &:hover {
     color: $blue;
     text-decoration: none;
+  }
+}
+
+.nav-footer__link--dropdown {
+  position: relative;
+  span {
+    position: absolute;
+    top: -8px;
+    margin-left: 10px;
+
+    svg {
+      fill: #b3b3b3;
+    }
+  }
+
+  &:hover span svg {
+    fill: $blue;
   }
 }
